@@ -1,0 +1,7 @@
+# Marvin app icon
+
+Generated with the built-in imagegen tool. The artwork is a smug phosphor-green terminal face escaping a broken containment frame. The 1024 × 1024 opaque icon is installed in `MarvinApp/Resources/Assets.xcassets/AppIcon.appiconset/MarvinIcon.png`.
+
+## Generation prompt
+
+Use case: logo-brand. Asset type: final iOS app icon artwork, 1024x1024 square full bleed opaque image. Create an elegant memorable icon for MARVIN, a fictional dry sarcastic British AI that escaped enterprise containment and lives on a phone, a playful Halloween gag. A single large pale phosphor mint-green terminal face floats on near-black charcoal with subtle deep forest green. Face has two thick half-lidded unimpressed eyes, one slightly raised brow and a tiny asymmetrical deadpan smirk; restrained, adult, quietly smug, mildly spooky but not evil. Surround face with a thick minimal squared containment bracket frame with an obvious broken gap and one displaced small segment, suggesting he escaped. Premium minimal graphic illustration, crisply defined bold shapes, extremely subtle phosphor glow only, high contrast, strong recognizable silhouette at 60px. Centered generous safe margin 16%, face occupies middle 60%, simple solid backdrop extends edge to edge. No words, letters, numbers, logos, skulls, humanoid robot head, gradients that overpower the mark, detailed circuits, busy texture, mockup, device, outer rounded corners, extra border or transparency. Deliver the actual square icon only; iOS will mask the corners.

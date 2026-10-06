@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B1EBB00950AAF83D203104 /* MarvinApp/Conversation/ConversationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C72FBCF67057120D7C808 /* MarvinApp/Conversation/ConversationManager.swift */; };
+		1ACE21DC2B149826DAB9737B /* MarvinApp/Speech/SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DB1A004E818D582EE8269E /* MarvinApp/Speech/SpeechRecognitionService.swift */; };
+		2618AFC682B9B7F6167B6BA9 /* MarvinApp/AI/OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974D2F5DC1397D4D0DECD217 /* MarvinApp/AI/OpenAIService.swift */; };
+		36AE255103AD3EBD85779AF3 /* MarvinApp/Conversation/ConversationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1CDCA1F74B44EB31A6A5C /* MarvinApp/Conversation/ConversationContext.swift */; };
+		6CFDCB1DEFBCF60AB3175AAF /* MarvinApp/Views/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D2A717DF59545A23886B /* MarvinApp/Views/SettingsView.swift */; };
+		6DF604CCBA9D4CD256CAA4F4 /* MarvinApp/Views/MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D0151650F272EB617D1E0 /* MarvinApp/Views/MainView.swift */; };
+		798281CEA91ECD7A4CCA818F /* MarvinApp/TTS/TTSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4138B74CE087630FC6FCEE1 /* MarvinApp/TTS/TTSService.swift */; };
+		93695B7C285D18A8AD4FCFA8 /* MarvinApp/Views/DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67D12B903848771FB8E48CF /* MarvinApp/Views/DebugView.swift */; };
+		9656C82F079F322C5931DD08 /* MarvinApp/App/MarvinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5B01DB23644E68EA26929E /* MarvinApp/App/MarvinApp.swift */; };
+		9885019B380CAA87DE159304 /* MarvinApp/AI/LLMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36317BA69091D5FEC222A6C1 /* MarvinApp/AI/LLMService.swift */; };
+		98C3C0F4A31026CDDD718109 /* MarvinApp/Audio/AudioSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DA3714256903A320D71B6 /* MarvinApp/Audio/AudioSessionManager.swift */; };
+		AD720F8DADA40D78A8CDF7C5 /* MarvinApp/Security/KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FC7A014E7EB1C6B8A7262A /* MarvinApp/Security/KeychainStore.swift */; };
+		B67D732496F80ACC07B5FA30 /* MarvinApp/AI/MarvinPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389649FFBEC73C98363B729C /* MarvinApp/AI/MarvinPrompt.swift */; };
+		EBF95BBD8537B1BA4C69A9B4 /* MarvinApp/Models/TranscriptEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0C6F53DE57F205D27C74E /* MarvinApp/Models/TranscriptEntry.swift */; };
+		F249D02139D38CD15DA5CDEA /* MarvinApp/Configuration/MarvinConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C170D0F247AFC7F465501B0 /* MarvinApp/Configuration/MarvinConfig.swift */; };
+		D25005C247DB8C50A7B38D07 /* MarvinApp/AI/OpenAISpeechClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939670C56D9F00085DC25993; };
+		7926725CF801DAC6130A5B2D /* MarvinApp/TTS/OpenAITTSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC00B1CF7F55A7F0D88261E; };
+		A75E7A71129AF00301200001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75E7A71129AF00301200002 /* Assets.xcassets */; };
+		1D320238D67760695C1ABF41 /* MarvinApp/AI/RealtimeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF249AAA0B46069B27C17C4; };
+		872D60A0B907B9E5D9CBC7A3 /* MarvinApp/Audio/RealtimeAudioIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E74E1DAB7DB21960AA319; };
+		48E70662FFCA12924710C68C /* MarvinApp/Conversation/RealtimeConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476939149DF15D76A27BD60; };
+		838107D9278ED6EA50522331 /* MarvinApp/Models/VoiceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4259275BC0A148B670E3C80; };
+		E53EEFBE8089CB748D61B66B /* MarvinApp/Speech/ArmedListeningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8EFED107231F2DC0028492; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C170D0F247AFC7F465501B0 /* MarvinApp/Configuration/MarvinConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Configuration/MarvinConfig.swift; sourceTree = "<group>"; };
+		36317BA69091D5FEC222A6C1 /* MarvinApp/AI/LLMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/AI/LLMService.swift; sourceTree = "<group>"; };
+		389649FFBEC73C98363B729C /* MarvinApp/AI/MarvinPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/AI/MarvinPrompt.swift; sourceTree = "<group>"; };
+		3B8D0151650F272EB617D1E0 /* MarvinApp/Views/MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Views/MainView.swift; sourceTree = "<group>"; };
+		6EB1CDCA1F74B44EB31A6A5C /* MarvinApp/Conversation/ConversationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Conversation/ConversationContext.swift; sourceTree = "<group>"; };
+		6F5B01DB23644E68EA26929E /* MarvinApp/App/MarvinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/App/MarvinApp.swift; sourceTree = "<group>"; };
+		740C72FBCF67057120D7C808 /* MarvinApp/Conversation/ConversationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Conversation/ConversationManager.swift; sourceTree = "<group>"; };
+		78FC7A014E7EB1C6B8A7262A /* MarvinApp/Security/KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Security/KeychainStore.swift; sourceTree = "<group>"; };
+		7D1043473D55BFA90E8530D3 /* Marvin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Marvin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D0C6F53DE57F205D27C74E /* MarvinApp/Models/TranscriptEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Models/TranscriptEntry.swift; sourceTree = "<group>"; };
+		974D2F5DC1397D4D0DECD217 /* MarvinApp/AI/OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/AI/OpenAIService.swift; sourceTree = "<group>"; };
+		A67D12B903848771FB8E48CF /* MarvinApp/Views/DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Views/DebugView.swift; sourceTree = "<group>"; };
+		C4138B74CE087630FC6FCEE1 /* MarvinApp/TTS/TTSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/TTS/TTSService.swift; sourceTree = "<group>"; };
+		DAD7D2A717DF59545A23886B /* MarvinApp/Views/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Views/SettingsView.swift; sourceTree = "<group>"; };
+		DE5DA3714256903A320D71B6 /* MarvinApp/Audio/AudioSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Audio/AudioSessionManager.swift; sourceTree = "<group>"; };
+		E5DB1A004E818D582EE8269E /* MarvinApp/Speech/SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Speech/SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		939670C56D9F00085DC25993 /* MarvinApp/AI/OpenAISpeechClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/AI/OpenAISpeechClient.swift; sourceTree = "<group>"; };
+		2BC00B1CF7F55A7F0D88261E /* MarvinApp/TTS/OpenAITTSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/TTS/OpenAITTSService.swift; sourceTree = "<group>"; };
+		A75E7A71129AF00301200002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MarvinApp/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		CCF249AAA0B46069B27C17C4 /* MarvinApp/AI/RealtimeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/AI/RealtimeProtocol.swift; sourceTree = "<group>"; };
+		066E74E1DAB7DB21960AA319 /* MarvinApp/Audio/RealtimeAudioIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Audio/RealtimeAudioIO.swift; sourceTree = "<group>"; };
+		4476939149DF15D76A27BD60 /* MarvinApp/Conversation/RealtimeConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Conversation/RealtimeConversation.swift; sourceTree = "<group>"; };
+		F4259275BC0A148B670E3C80 /* MarvinApp/Models/VoiceCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Models/VoiceCommand.swift; sourceTree = "<group>"; };
+		5C8EFED107231F2DC0028492 /* MarvinApp/Speech/ArmedListeningService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvinApp/Speech/ArmedListeningService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC76E9F0C0006E8F919E0C51 = {
+			isa = PBXGroup;
+			children = (
+				5C8EFED107231F2DC0028492 /* MarvinApp/Speech/ArmedListeningService.swift */,
+				F4259275BC0A148B670E3C80 /* MarvinApp/Models/VoiceCommand.swift */,
+				4476939149DF15D76A27BD60 /* MarvinApp/Conversation/RealtimeConversation.swift */,
+				066E74E1DAB7DB21960AA319 /* MarvinApp/Audio/RealtimeAudioIO.swift */,
+				CCF249AAA0B46069B27C17C4 /* MarvinApp/AI/RealtimeProtocol.swift */,
+				A75E7A71129AF00301200002 /* Assets.xcassets */,
+				2BC00B1CF7F55A7F0D88261E /* MarvinApp/TTS/OpenAITTSService.swift */,
+				939670C56D9F00085DC25993 /* MarvinApp/AI/OpenAISpeechClient.swift */,
+				36317BA69091D5FEC222A6C1 /* MarvinApp/AI/LLMService.swift */,
+				389649FFBEC73C98363B729C /* MarvinApp/AI/MarvinPrompt.swift */,
+				974D2F5DC1397D4D0DECD217 /* MarvinApp/AI/OpenAIService.swift */,
+				6F5B01DB23644E68EA26929E /* MarvinApp/App/MarvinApp.swift */,
+				DE5DA3714256903A320D71B6 /* MarvinApp/Audio/AudioSessionManager.swift */,
+				1C170D0F247AFC7F465501B0 /* MarvinApp/Configuration/MarvinConfig.swift */,
+				6EB1CDCA1F74B44EB31A6A5C /* MarvinApp/Conversation/ConversationContext.swift */,
+				740C72FBCF67057120D7C808 /* MarvinApp/Conversation/ConversationManager.swift */,
+				83D0C6F53DE57F205D27C74E /* MarvinApp/Models/TranscriptEntry.swift */,
+				78FC7A014E7EB1C6B8A7262A /* MarvinApp/Security/KeychainStore.swift */,
+				E5DB1A004E818D582EE8269E /* MarvinApp/Speech/SpeechRecognitionService.swift */,
+				C4138B74CE087630FC6FCEE1 /* MarvinApp/TTS/TTSService.swift */,
+				A67D12B903848771FB8E48CF /* MarvinApp/Views/DebugView.swift */,
+				3B8D0151650F272EB617D1E0 /* MarvinApp/Views/MainView.swift */,
+				DAD7D2A717DF59545A23886B /* MarvinApp/Views/SettingsView.swift */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1043473D55BFA90E8530D3 /* Marvin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* Marvin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66B3603D80A7F0E2F08B3BC /* Build configuration list for PBXNativeTarget "Marvin" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marvin;
+			productName = Marvin;
+			productReference = 7D1043473D55BFA90E8530D3 /* Marvin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = FB82D759FB6CC8BAF965A9B2 /* Build configuration list for PBXProject "Marvin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC76E9F0C0006E8F919E0C51;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* Marvin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75E7A71129AF00301200001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53EEFBE8089CB748D61B66B /* MarvinApp/Speech/ArmedListeningService.swift in Sources */,
+				838107D9278ED6EA50522331 /* MarvinApp/Models/VoiceCommand.swift in Sources */,
+				48E70662FFCA12924710C68C /* MarvinApp/Conversation/RealtimeConversation.swift in Sources */,
+				872D60A0B907B9E5D9CBC7A3 /* MarvinApp/Audio/RealtimeAudioIO.swift in Sources */,
+				1D320238D67760695C1ABF41 /* MarvinApp/AI/RealtimeProtocol.swift in Sources */,
+				7926725CF801DAC6130A5B2D /* MarvinApp/TTS/OpenAITTSService.swift in Sources */,
+				D25005C247DB8C50A7B38D07 /* MarvinApp/AI/OpenAISpeechClient.swift in Sources */,
+				9885019B380CAA87DE159304 /* MarvinApp/AI/LLMService.swift in Sources */,
+				B67D732496F80ACC07B5FA30 /* MarvinApp/AI/MarvinPrompt.swift in Sources */,
+				2618AFC682B9B7F6167B6BA9 /* MarvinApp/AI/OpenAIService.swift in Sources */,
+				9656C82F079F322C5931DD08 /* MarvinApp/App/MarvinApp.swift in Sources */,
+				98C3C0F4A31026CDDD718109 /* MarvinApp/Audio/AudioSessionManager.swift in Sources */,
+				F249D02139D38CD15DA5CDEA /* MarvinApp/Configuration/MarvinConfig.swift in Sources */,
+				36AE255103AD3EBD85779AF3 /* MarvinApp/Conversation/ConversationContext.swift in Sources */,
+				06B1EBB00950AAF83D203104 /* MarvinApp/Conversation/ConversationManager.swift in Sources */,
+				EBF95BBD8537B1BA4C69A9B4 /* MarvinApp/Models/TranscriptEntry.swift in Sources */,
+				AD720F8DADA40D78A8CDF7C5 /* MarvinApp/Security/KeychainStore.swift in Sources */,
+				1ACE21DC2B149826DAB9737B /* MarvinApp/Speech/SpeechRecognitionService.swift in Sources */,
+				798281CEA91ECD7A4CCA818F /* MarvinApp/TTS/TTSService.swift in Sources */,
+				93695B7C285D18A8AD4FCFA8 /* MarvinApp/Views/DebugView.swift in Sources */,
+				6DF604CCBA9D4CD256CAA4F4 /* MarvinApp/Views/MainView.swift in Sources */,
+				6CFDCB1DEFBCF60AB3175AAF /* MarvinApp/Views/SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3567H6V492;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MarvinApp/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitch.marvin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3567H6V492;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MarvinApp/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitch.marvin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D66B3603D80A7F0E2F08B3BC /* Build configuration list for PBXNativeTarget "Marvin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB82D759FB6CC8BAF965A9B2 /* Build configuration list for PBXProject "Marvin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
